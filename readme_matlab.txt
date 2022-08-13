@@ -1,3 +1,6 @@
+contributors: Malte Kob (modeling concept, PointSourceClass), Jithin Thilakan (visualization, jupyter GUI), Walter Buchholtzer (visualization) Timo Grothe (visualization, Matlab GUI)
+
+
 Guideline to run Matlab script
 PointSourceGUI_v1_0.m
 =====================================

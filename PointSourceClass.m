@@ -1,3 +1,4 @@
+% version 1.5, 25.12.2019, Malte Kob
 classdef PointSourceClass
     properties
         Q {mustBeNumeric} = 1e-3 % standard value

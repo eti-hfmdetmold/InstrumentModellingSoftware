@@ -1,6 +1,9 @@
-%Timo Grothe, ETI, 13.07.2022
+% contributors: Malte Kob (modeling concept, PointSourceClass), Jithin Thilakan (visualization, jupyter GUI), Walter Buchholtzer (visualization) Timo Grothe (visualization, Matlab GUI)
+%
+
 %GUI with guide for the point source modelling software
 %v1.0
+%Timo Grothe, ETI, 13.07.2022
 
 function varargout = PointSourceGUI_v1_0(varargin)
 % POINTSOURCEGUI_V1_0 MATLAB code for PointSourceGUI_v1_0.fig
@@ -67,7 +70,7 @@ guidata(hObject, handles);
 global nSources
 
 %% initial values for sources:
-% the fluepipe example for the original JASA submission had 2 sources with the following
+% the fluepipe example in the manuscript has 2 sources with the following
 % parameters:                     %Q  f  D    z   x   y   nx  ny  nz a
 %   sourceMouth = PointSourceClass(Q, f, 0, -l/2, 0,  0,  1,  0,  0, 0); % source at mouth,
 %   sourceEnd   = PointSourceClass(Q, f, D,  l/2, 0,  0,  0,  0, -1, 0); % source at passive end, 
