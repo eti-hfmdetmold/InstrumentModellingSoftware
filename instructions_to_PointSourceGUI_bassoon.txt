@@ -47,6 +47,8 @@
 % View: You may freely change the view on the ballon radiation plot by use of the rotate- and tilt-sliders.
 % PRINT
 % Click the print button to make a pdf print of the current model.
+% SAVE TO FILE
+% Click the save to file button to store the current model in MATLABS *.fig- file format. Opening this file in Matlab allows to change the view, e.g. by rotate and tilt.
 % RESET
 % To compare these bassoon radiation data to a simpler radiator, you can click on the "reset to line array" button,
 % which loads a line array with 14 regularly spaced sources, symmetrically
@@ -62,6 +64,10 @@
 % suffix _1234Hz.csv will set the initial modeling frequency on the slider to 1234 Hz.
 % To match the GUI, you will need to set 14 source (set the source strength to 0 if you need less than 14 sources).
 % As a template, the file dipole_80Hz.csv shows a parameter table for a dipole. 
+% COMPARISON TO MEASUREMENTS
+% We provide measurement data of balloon directivity in form of Matlabs .fig format, for flue pipe (flp) and bassoon (bsn) at several discrete frequenencies as indicated in the filename. For bassoon, data from two different fingerings (340 = MIDI 34 => Bb1, f0 = 58Hz; 530 = MIDI 53 => F3, f0 = 175Hz) is given.
+The balloons in bsn340_*.fig are shown in the left column of FIG.2 in the manuscript.
+The balloons in flp_*.fig are shown in the left column of FIG.4 in the manuscript.
+The balloons in bsn530_*.fig are shown in the left column of FIG.6 in the manuscript.
 
-% Timo Grothe, ETI, 05.06.2023
-
+% Timo Grothe, ETI, 20.09.2023
